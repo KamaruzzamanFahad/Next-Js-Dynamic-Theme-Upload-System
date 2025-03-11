@@ -7,7 +7,6 @@ const Theme = ({data}) => {
     return (
         <div>
             this is theme one {data}
-
         </div>
     );
 };
