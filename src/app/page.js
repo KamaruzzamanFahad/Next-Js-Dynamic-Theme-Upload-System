@@ -15,7 +15,7 @@ export default async function Home() {
 
   return (
     <div>
-      <Theme />
+      <Theme data={settings?.value} />
     </div>
   );
 }

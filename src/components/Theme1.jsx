@@ -1,12 +1,12 @@
 "use client";
 import React from 'react';
 
-const Theme = () => {
+const Theme = ({data}) => {
 
 
     return (
         <div>
-            this is theme one
+            this is theme one {data}
 
         </div>
     );

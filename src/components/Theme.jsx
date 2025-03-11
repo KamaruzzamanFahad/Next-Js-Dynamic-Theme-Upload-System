@@ -1,9 +1,9 @@
 import React from 'react';
 
-const Theme = () => {
+const Theme = ({data}) => {
     return (
         <div>
-            this is theme zero
+            this is theme zero {data}
         </div>
     );
 };
